@@ -1001,7 +1001,7 @@ video {
 .about-first-column {
   height: 100%;
   width: 40%;
-  background-image: url('./assets/images/background.png') ;
+  background-image: url('background.png') ;
   background-size: cover;
   background-position: bottom;
   border-radius: 16px;
