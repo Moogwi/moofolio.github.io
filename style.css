@@ -1310,7 +1310,7 @@ h3 {
 }
 
 .work_img_two {
-  background-image: url('./assets/images/works/meos_cover.png');
+  background-image: url('works/meos_cover.png');
   width: 75%;
   background-position: center; /* Centers the background image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -1319,7 +1319,7 @@ h3 {
 }
 
 .work_img_three {
-  background-image: url('./assets/images/works/rove_cover.png');
+  background-image: url('works/rove_cover.png');
   width: 75%;
   background-position: center; /* Centers the background image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -1328,7 +1328,7 @@ h3 {
 }
 
 .work_img_four {
-  background-image: url('./assets/images/works/neoverse_cover.png');
+  background-image: url('works/neoverse_cover.png');
   width: 75%;
   background-position: center; /* Centers the background image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -1337,7 +1337,7 @@ h3 {
 }
 
 .work_img_five {
-  background-image: url('./assets/images/works/sorciere_cover.png');
+  background-image: url('works/sorciere_cover.png');
   width: 75%;
   background-position: center; /* Centers the background image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -1346,7 +1346,7 @@ h3 {
 }
 
 .work_img_six {
-  background-image: url('./assets/images/works/illu_cover.png');
+  background-image: url('works/illu_cover.png');
   width: 75%;
   background-position: center; /* Centers the background image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
