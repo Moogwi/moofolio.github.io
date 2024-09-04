@@ -1,0 +1,1447 @@
+* {
+    box-sizing: border-box; 
+}
+
+/**
+* @license
+*
+* Font Family: Satoshi
+* Designed by: Deni Anggara
+* URL: https://www.fontshare.com/fonts/satoshi
+* Â© 2024 Indian Type Foundry
+*
+* Satoshi Light 
+* Satoshi LightItalic 
+* Satoshi Regular 
+* Satoshi Italic 
+* Satoshi Medium 
+* Satoshi MediumItalic 
+* Satoshi Bold 
+* Satoshi BoldItalic 
+* Satoshi Black 
+* Satoshi BlackItalic 
+* Satoshi Variable (Variable font)
+* Satoshi VariableItalic (Variable font)
+
+*
+*/
+@font-face {
+  font-family: 'Satoshi-Light';
+  src: url('../fonts/Satoshi-Light.woff2') format('woff2'),
+       url('../fonts/Satoshi-Light.woff') format('woff'),
+       url('../fonts/Satoshi-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Satoshi-LightItalic';
+  src: url('../fonts/Satoshi-LightItalic.woff2') format('woff2'),
+       url('../fonts/Satoshi-LightItalic.woff') format('woff'),
+       url('../fonts/Satoshi-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Satoshi-Regular';
+  src: url('../fonts/Satoshi-Regular.woff2') format('woff2'),
+       url('../fonts/Satoshi-Regular.woff') format('woff'),
+       url('../fonts/Satoshi-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Satoshi-Italic';
+  src: url('../fonts/Satoshi-Italic.woff2') format('woff2'),
+       url('../fonts/Satoshi-Italic.woff') format('woff'),
+       url('../fonts/Satoshi-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Satoshi-Medium';
+  src: url('../fonts/Satoshi-Medium.woff2') format('woff2'),
+       url('../fonts/Satoshi-Medium.woff') format('woff'),
+       url('../fonts/Satoshi-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Satoshi-MediumItalic';
+  src: url('../fonts/Satoshi-MediumItalic.woff2') format('woff2'),
+       url('../fonts/Satoshi-MediumItalic.woff') format('woff'),
+       url('../fonts/Satoshi-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Satoshi-Bold';
+  src: url('../fonts/Satoshi-Bold.woff2') format('woff2'),
+       url('../fonts/Satoshi-Bold.woff') format('woff'),
+       url('../fonts/Satoshi-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Satoshi-BoldItalic';
+  src: url('../fonts/Satoshi-BoldItalic.woff2') format('woff2'),
+       url('../fonts/Satoshi-BoldItalic.woff') format('woff'),
+       url('../fonts/Satoshi-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Satoshi-Black';
+  src: url('../fonts/Satoshi-Black.woff2') format('woff2'),
+       url('../fonts/Satoshi-Black.woff') format('woff'),
+       url('../fonts/Satoshi-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Satoshi-BlackItalic';
+  src: url('../fonts/Satoshi-BlackItalic.woff2') format('woff2'),
+       url('../fonts/Satoshi-BlackItalic.woff') format('woff'),
+       url('../fonts/Satoshi-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-display: swap;
+  font-style: italic;
+}
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 900.0;
+*
+* available axes:
+'wght' (range from 300.0 to 900.0
+*/
+@font-face {
+  font-family: 'Satoshi-Variable';
+  src: url('../fonts/Satoshi-Variable.woff2') format('woff2'),
+       url('../fonts/Satoshi-Variable.woff') format('woff'),
+       url('../fonts/Satoshi-Variable.ttf') format('truetype');
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: normal;
+}
+/**
+* This is a variable font
+* You can control variable axes as shown below:
+* font-variation-settings: wght 900.0;
+*
+* available axes:
+'wght' (range from 300.0 to 900.0
+*/
+@font-face {
+  font-family: 'Satoshi-VariableItalic';
+  src: url('../fonts/Satoshi-VariableItalic.woff2') format('woff2'),
+       url('../fonts/Satoshi-VariableItalic.woff') format('woff'),
+       url('../fonts/Satoshi-VariableItalic.ttf') format('truetype');
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: italic;
+}
+
+:root {
+    --light_grey: #F7F7F6; /* 50 */
+    --lightest_blue: #E6EBF3; /* 50 */
+    --light_blue: #D3DCEA; /*200*/
+    --darkest_blue: #2A2E41; /* 950 */
+    --dark_blue: #49527E; /* 800 */
+    --secondary_blue: #6375AD; /* 600 */
+    --main_blue: #758BBC; /* 500 */
+    --background_blue: #E6EBF3; /*100*/
+
+  }
+
+  /* components */
+
+  nav {
+    top: 0%;
+    left: 0%;
+    transform: translate(-0%, -0%);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--light_grey);
+    padding: 1%;
+    box-shadow: 0 0 15px var(--secondary_blue);
+  }
+  
+  
+  .nav-button-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    width: fit-content;
+    grid-gap: 16px;
+  
+  }
+
+  @media (max-width: 768px) {
+    .nav-button-container {
+      width:80%
+    }
+  }
+
+  h2 {
+    margin: 0;
+    font-family: 'Satoshi-Bold';
+    text-transform: uppercase;
+    color: var(--darkest_blue);
+    opacity: 0.75;
+    font-size: 36px;
+   
+  }
+
+  h4 {
+    margin: 0;
+    font-family: 'Satoshi-Bold';
+    font-size: 1em;
+    color: var(--darkest_blue);
+    opacity: 0.5;
+  }
+
+  p {
+    font-family: 'Satoshi-Regular' ;
+    font-size: 1.3rem;
+    line-height: 32px;
+    color: var(--darkest_blue);
+    opacity: 0.75;
+    width: 95%;
+  }
+    
+
+  .icon-button {
+    font-family:'Satoshi-Bold';
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1vw;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--secondary_blue);
+    color: var(--light_grey);
+    cursor: pointer;
+    min-width: fit-content;
+    height: 38px;
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Show ellipsis (...)*/
+    gap: 10px;
+    width: 100%;
+  }
+
+.icon-button svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .icon-button:hover {
+    background-color: var(--light_blue); /* Change background color on hover */
+    color: var(--darkest_blue);
+  }
+  
+  .icon-button:active {
+    color: var(--lightest_blue); /* Change background color on click */
+  }
+
+
+    /* Landing */
+
+  .landing-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--secondary_blue);
+    color: var(--light_grey);
+    cursor: pointer;
+    width: fit-content;
+    min-width: 322px;
+    max-height: 42px;
+    font-family: 'Satoshi-Bold';
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Show ellipsis (...)*/
+  }
+
+  .landing-button:hover {
+    background-color: var(--light_blue); /* Change background color on hover */
+    color: var(--darkest_blue);
+  }
+
+  .landing-button:active{
+    background-color: var(--secondary_blue); /* Change background color on click */
+    color: var(--lightest_blue);
+  }
+
+  
+.background {
+    background-color: #f6f7f7;
+}
+
+.landing {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://zupimages.net/up/24/18/l2ft.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--light_grey);
+}
+
+h1 {
+    font-family: 'Satoshi-Bold';
+    text-transform: uppercase;
+    color: var(--darkest_blue);
+    font-size: 96px;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Satoshi-Bold';
+    text-transform: uppercase;
+    color: var(--dark_blue);
+    font-size: 36px;
+    
+}
+
+.blur-effect-adobe {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+    min-width: 100px;
+    min-height: 100px;
+    background-color: var(--light_blue);
+    border-radius: 10px;
+    filter: blur(6px);
+    transform: rotate(-10deg);
+}
+
+.card-adobe {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+    min-width: 100px;
+    min-height: 100px;
+    border-radius: 10px;
+    background-color: var(--light_grey);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-10deg);
+    
+}
+.blur-effect-figma {
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    transform: translate(-10%, -70%);
+    min-width: 100px;
+    min-height: 100px;
+    background-color: var(--light_blue);
+    border-radius: 10px;
+    filter: blur(6px);
+    transform: rotate(-20deg);
+}
+
+.card-figma {
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    transform: translate(-10%, -70%);
+    min-width: 100px;
+    min-height: 100px;
+    border-radius: 10px;
+    background-color: var(--light_grey);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-20deg);
+    
+}
+
+.blur-effect-vscode {
+    position: absolute;
+    top: 70%;
+    left: 88%;
+    transform: translate(-70%, -88%);
+    min-width: 100px;
+    min-height: 100px;
+    background-color: var(--light_blue);
+    border-radius: 10px;
+    filter: blur(6px);
+    transform: rotate(-5deg);
+}
+
+.card-vscode {
+    position: absolute;
+    top: 70%;
+    left: 88%;
+    transform: translate(-70%, -88%);
+    min-width: 100px;
+    min-height: 100px;
+    border-radius: 10px;
+    background-color: var(--light_grey);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-1deg);
+    
+}
+
+.blur-effect-notion {
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    transform: translate(-5%, -15%);
+    min-width: 100px;
+    min-height: 100px;
+    background-color: var(--light_blue);
+    border-radius: 10px;
+    filter: blur(6px);
+    transform: rotate(-1deg);
+}
+
+.card-notion {
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    transform: translate(-5%, -15%);
+    min-width: 100px;
+    min-height: 100px;
+    border-radius: 10px;
+    background-color: var(--light_grey);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-5deg);  
+}
+
+.blur-effect-webflow {
+    position: absolute;
+    top: 75%;
+    left: 15%;
+    transform: translate(-75%, -15%);
+    min-width: 100px;
+    min-height: 100px;
+    background: linear-gradient(to top right, var(--light_blue), var(--darkest_blue));
+    border-radius: 10px;
+    filter: blur(6px);
+    transform: rotate(15deg);
+}
+
+.card-webflow {
+    position: absolute;
+    top: 75%;
+    left: 15%;
+    transform: translate(-75%, -15%);
+    min-width: 100px;
+    min-height: 100px;
+    border-radius: 10px;
+    background-color: var(--light_grey);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(15deg);  
+}
+
+
+
+.software-label {
+    font-family: 'Satoshi-Medium';
+    font-size: 14px;
+    color: var(--darkest_blue);
+    opacity: 0.75;
+    padding-top: 4px;
+}
+
+/* Template project part*/
+
+.body-template {
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: fit-content;
+  background-color: var(--background_blue);
+}
+
+.header {
+width: 100%; /* Set the width of the container */
+max-height: 720px;
+overflow: hidden; /* Hide any overflow content */
+display: flex; /* Use Flexbox for centering */
+justify-content: center; /* Center horizontally */
+align-items: center; /* Center vertically */
+}
+
+.header video {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.header img {
+  width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.resume-container {
+  background-color: var(--light_grey);
+  width: auto;
+  height: fit-content;
+  margin: 5%;
+  padding:3%;
+  border-radius: 10px;
+  gap: 16px;
+  box-shadow: 0 0 15px var(--light_blue); /* Horizontal offset, vertical offset, blur radius, and color */
+}
+
+@media (max-width: 600px) {
+  .resume-container  {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+  }
+}
+
+
+.image-container {
+  display: flex;
+  width: 100%;
+  padding: 0% 5% 5% 5%;
+  align-items: stretch;
+  gap: 32px;
+}
+
+@media (max-width: 600px) {
+  .image-container  {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.image {
+  flex-grow: 1; /* Allows flex items to grow to fill the container */
+  width: 50%; /* Initially sets each image to take half the width */
+  overflow: hidden; /* Hides anything outside the div */
+}
+
+@media (max-width: 600px) {
+  .image  {
+    width: 100%;
+  }
+}
+
+.image img {
+  width: 100%; /* Makes the image fill its container */
+  height: 100%; /* Makes the image stretch to fill the height */
+  object-fit: cover; /* Ensures images cover the space without distortion */
+}
+
+
+.second-paragraph {
+  display: flex;
+  justify-content:center ;
+  padding: 0% 10% 0% 10%;
+  margin-bottom: 5%;
+}
+
+.image-container img {
+  width: 100%; /* Makes the image fill its container */
+  height: 100%; /* Makes the image stretch to fill the height */
+  object-fit: cover; /* Ensures images cover the space without distortion */
+  border-radius: 10px;
+}
+
+a:link {
+  text-decoration: none; /* Removes underline */
+}
+
+.image-container2 {
+  display: flex;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  align-items: stretch;
+  gap: 32px;
+}
+
+@media (max-width: 600px) {
+.image-container2 {
+    flex-direction: column;
+  }
+} 
+
+.image-container2 img {
+  width: 100%; /* Makes the image fill its container */
+  height: 100%; /* Makes the image stretch to fill the height */
+  object-fit: cover; /* Ensures images cover the space without distortion */
+  border-radius: 10px;
+}
+
+
+.mockup {
+  display: flex;
+  justify-content: center;
+  margin: 2% 5% 5% 5%;
+}
+
+.mockup img {
+  width: 50%; /* Makes the image fill its container */
+  height: 50%; /* Makes the image stretch to fill the height */
+  object-fit: cover;
+}
+
+@media (max-width: 600px) {
+  .mockup img {
+    width: 100%; /* Makes the image fill its container */
+    }
+  }
+  
+
+.footer_button {
+  padding: 0% 20% 0% 20% ;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .footer_button {
+    padding: 0 5% ;
+    }
+  }
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
+
+
+footer p {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.resume_desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .resume_desc {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+
+
+.resume_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+}
+
+@media (max-width: 600px) {
+  .resume_text {
+    width: 100%;
+  }
+}
+
+.resume_desc img {
+  width: 20%;
+}
+
+
+@media (max-width: 600px) {
+  .resume_desc img {
+    height: 0;
+  }
+}
+
+/* ------------ CORE ------------ */
+
+.nav_core {
+  top: 0%;
+  left: 0%;
+  transform: translate(-0%, -0%);
+  width: 100%;
+  padding: 1%;
+  box-shadow: 0 0 15px var(--darkest_blue);
+}
+
+.resume-container p {
+  font-family: 'Satoshi-Regular';
+  font-size: 1.3em;
+  line-height: 32px;
+  color: var(--darkest_blue);
+  opacity: 0.75;
+  width: 100%;
+}
+
+.image1 {
+  flex-basis: 100%; /* Allocates 60% of the space to the first image */
+  border-radius: 10px;
+}
+
+.image2 {
+  flex-basis: 50%; /* Allocates 40% of the space to the second image */
+  border-radius: 10px;
+}
+
+.image3 {
+  flex-basis: 50%; /* Allocates 60% of the space to the first image */
+  border-radius: 10px;
+}
+
+.image4 {
+  flex-basis: 50%; /* Allocates 40% of the space to the second image */
+  border-radius: 10px;
+}
+
+/* ------------ MEOS ------------ */
+
+.second-paragraph-meos {
+  display: flex;
+  justify-content:center ;
+  padding: 0% 10% 2% 10%;
+  margin: 0;
+}
+
+.gif_meos {
+  position: absolute;
+}
+
+/* ------------ ROVE ------------ */
+
+.nav-rove {
+  top: 0%;
+  left: 0%;
+  transform: translate(-0%, -0%);
+  width: 100%;
+  padding: 1%;  
+  box-shadow: 0 0 15px var(--light_blue);
+}
+
+.image7 {
+  flex-basis: 50%; /* Allocates 60% of the space to the first image */
+  border-radius: 10px;
+}
+
+.image8 {
+  flex-basis: 50%; /* Allocates 40% of the space to the second image */
+  border-radius: 10px;
+}
+
+
+  .resume-container_rove {
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: left;
+      background-color: var(--light_grey);
+      width: auto;
+      height: fit-content;
+      margin: 5% 5% 0% 5%;
+      padding:3%;
+      border-radius: 10px;
+      gap: 16px;
+      box-shadow: 0 0 15px var(--light_blue); /* Horizontal offset, vertical offset, blur radius, and color */
+
+  }
+
+  .resume-container_rove p {
+    font-family: 'Satoshi-Regular';
+    font-size: 1em;
+    line-height: 32px;
+    color: var(--darkest_blue);
+    opacity: 0.75;
+    width: 60%;
+  }
+
+  .second-paragraph-rove {
+    display: flex;
+    justify-content:center ;
+    padding: 0% 10% 0% 10%;
+  }
+
+  .mockup-rove {
+    display: flex;
+    width: 100%;
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mockup-rove img {
+    width: 50%; /* Makes the image fill its container */
+    height: 50%; /* Makes the image stretch to fill the height */
+    object-fit: cover;
+  }
+
+  .mockup-rove-two {
+    display: flex;
+    width: 100%;
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mockup-rove-two img {
+    width: 80%; /* Makes the image fill its container */
+    height: 80%; /* Makes the image stretch to fill the height */
+    object-fit: cover;
+  }
+
+  .mockup-rove-three {
+    display: flex;
+    width: 100%;
+    padding-bottom: 5%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mockup-rove-three img {
+    width: 70%; /* Makes the image fill its container */
+    height: 70%; /* Makes the image stretch to fill the height */
+    object-fit: cover;
+  }
+  
+
+
+  .prototype-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* ------ neoverse ------ */
+
+  .image-container3 {
+    display: flex;
+    width: 100%;
+    padding: 0% 5% 5% 5%;
+    align-items: stretch;
+    gap: 32px;
+}
+
+@media (max-width: 600px) {
+  .image-container3 {
+    flex-direction: column;
+  }
+}
+
+/* ------sorciere------ */
+
+.video-container {
+  display: flex;
+  justify-content: center;
+}
+
+video {
+  width: 70%; /* Makes the image fill its container */
+  object-fit: cover; /* Ensures images cover the space without distortion */
+  padding-bottom: 5%;
+}
+
+@media (max-width: 600px) {
+  .video-container video {
+    width: 80%;
+    margin-bottom: 32px;
+  }
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Creates two columns of equal size */
+  grid-template-rows: auto; /* Adjusts row size based on content */
+  gap: 24px; /* Space between grid items */
+  width: 70%; /* Adjusts the width of the container to full width */
+  margin: 0 auto; /* Automatically adjusts margins to center the grid horizontally */
+  padding-bottom: 5%;
+}
+
+.grid-item img {
+  width: 100%; /* Makes the image fully responsive within the grid item */
+  height: auto; /* Maintains the aspect ratio */
+  border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: 1fr; /* Stacks images vertically on smaller screens */
+  }
+}
+
+.image-container4 {
+  display: flex;
+  width: 100%;
+  padding: 0% 5% 5% 5%;
+  align-items: stretch;
+  gap: 32px;
+  justify-content: center;
+}
+
+.image-container4 img {
+  width: 50%; /* Makes the image fill its container */
+  height: auto; /* Makes the image stretch to fill the height */
+  object-fit: cover; /* Ensures images cover the space without distortion */
+  border-radius: 10px;
+}
+
+/* ------- about -------- */
+.nav_about {
+  top: 0%;
+  left: 0%;
+  transform: translate(-0%, -0%);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--light_grey);
+  padding: 1%;
+  box-shadow: 0 0 15px var(--light_blue);
+}
+
+.nav-button-container-about {
+  display: grid;
+  justify-content: space-between;
+  width: fit-content;
+  margin-right: 16px;
+
+}
+
+
+.overall_about_container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+@media (max-width: 768px) {
+  .overall_about_container {
+    height: fit-content;
+  }
+}
+
+.about_container {
+  width: 75%;
+  height: 70%;
+  display: flex;
+  gap: 16px;
+ 
+}
+
+@media (max-width: 768px) {
+  .about_container {
+    flex-direction: column;
+    align-items: center; /* Center align the stacked panels */
+    height: auto;
+    position: relative;
+    top: 24px;
+  }
+}
+
+.about-first-column {
+  height: 100%;
+  width: 40%;
+  background-image: url('./assets/images/background.png') ;
+  background-size: cover;
+  background-position: bottom;
+  border-radius: 16px;
+  box-shadow: 0 0 15px var(--light_blue);
+  padding: 24px;
+
+}
+
+@media (max-width: 768px) {
+  .about-first-column {
+    width: 100%;
+    height: 640px;
+  }
+}
+
+.about-second-column {
+  height: 100%;
+  width: 30%;
+  background-color:#f6f7f7 ;
+  border-radius: 16px;
+  box-shadow: 0 0 15px var(--light_blue);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+  .about-second-column {
+    width: 100%;
+  }
+}
+
+.about-third-column {
+  height: 100%;
+  width: 30%;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (max-width: 768px) {
+  .about-third-column {
+    width: 100%;
+  }
+}
+
+.about-first-column p {
+  padding: none;
+  width: 100%;
+  padding-right: 15px;
+}
+
+.about-first-column a {
+  font-family:'Satoshi-bold';
+  color: var(--dark_blue);
+}
+.about-first-column a:hover {
+  color: var(--main_blue);
+}
+
+.a_about {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+
+h3 {
+  font-family: 'Satoshi-bold';
+  color: var(--darkest_blue);
+  opacity: 0.75;
+  margin: 0;
+}
+
+.about-first-row {
+  height: 50%;
+  border-bottom: 1px solid var(--light_blue);
+  padding-bottom: 24px ;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.first-row-top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.about-second-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  gap: 24px;
+}
+
+.about-third-row {
+  height: fit-content;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+.chip-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding-top: 16px;
+}
+
+.chip {
+  font-size: 14px;
+  font-family: 'Satoshi-medium';
+  color: var(--dark_blue);
+  border: solid 1px var(--dark_blue);
+  min-width: 20px ;
+  border-radius: 24px;
+  padding: 4px 8px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.exp-container {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.exp {
+  display: flex;
+  flex-direction: column;
+}
+
+.date {
+  font-family: 'Satoshi-bold';
+  font-size: 0.9rem;
+  color: var(--darkest_blue);
+  opacity: 0.5 ;
+}
+
+.entreprise {
+  font-family: 'Satoshi-bold';
+  font-size: 1rem;
+  color: var(--darkest_blue);
+  opacity: 0.75 ;
+}
+
+.description {
+  font-family: 'Satoshi-bold';
+  font-size: 0.9rem;
+  color: var(--darkest_blue);
+  opacity: 0.5;
+}
+
+.one {
+  background-color: var(--light_grey);
+  box-shadow: 0 0 15px var(--light_blue);
+  height: fit-content;
+  padding: 8px;
+  border-radius: 8px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  
+
+}
+
+.card-desc {
+  width: 75%;
+  overflow: auto;
+}
+
+.card-title {
+  font-family: 'Satoshi-bold';
+  font-size: 20px;
+  color: var(--darkest_blue);
+  opacity: 0.75 ;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block; 
+}
+
+.card-subtitle {
+  font-family: 'Satoshi-bold';
+  font-size: 16px;
+  color: var(--darkest_blue);
+  opacity: 0.5 ;
+}
+
+.two {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+.software {
+  width: 1fr;
+  height: 1fr;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--light_grey);
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+ 
+}
+
+.software img {
+  object-fit: contain;
+  object-position: center;
+  width: 40%;
+  height: 40%;
+}
+
+.label {
+  font-size: 14px;
+  font-family: 'Satoshi-medium';
+  color: var(--dark_blue);
+}
+
+@media (max-width: 768px) {
+  .two {
+    height: 235px;
+  }
+}
+
+/* ------- work -------- */
+.nav_about {
+  top: 0%;
+  left: 0%;
+  transform: translate(-0%, -0%);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--light_grey);
+  padding: 1%;
+  box-shadow: 0 0 15px var(--light_blue);
+}
+
+.overall_work_container {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+}
+
+.work_card {
+  width: 90%;
+  height: 600px;
+  background-color: var(--light_grey);
+  border-radius: 12px;
+  margin-top: 64px;
+  box-shadow: 0 0 15px var(--light_blue);
+  display: flex;
+  flex-direction: row;
+  padding: 24px;
+}
+
+.work_card:hover{
+  background-color: var(--secondary_blue);
+  color: var(--light_grey);
+  
+}
+
+@media (max-width: 768px) {
+  .work_card {
+    flex-direction: column;
+    height: 812px;
+    width: 85%;
+    margin-top: 32px;
+    gap: 32px;
+  }
+}
+
+.work_desc {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .work_desc {
+    width: 100%;
+  }
+}
+
+.work_img_one {
+  background-image: url('./assets/images/works/core_cover.png');
+  width: 75%;
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-size: cover; /* Scales the image to cover the entire div */
+  border-radius: 8px;
+}
+
+.work_img_two {
+  background-image: url('./assets/images/works/meos_cover.png');
+  width: 75%;
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-size: cover; /* Scales the image to cover the entire div */
+  border-radius: 8px;
+}
+
+.work_img_three {
+  background-image: url('./assets/images/works/rove_cover.png');
+  width: 75%;
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-size: cover; /* Scales the image to cover the entire div */
+  border-radius: 8px;
+}
+
+.work_img_four {
+  background-image: url('./assets/images/works/neoverse_cover.png');
+  width: 75%;
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-size: cover; /* Scales the image to cover the entire div */
+  border-radius: 8px;
+}
+
+.work_img_five {
+  background-image: url('./assets/images/works/sorciere_cover.png');
+  width: 75%;
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-size: cover; /* Scales the image to cover the entire div */
+  border-radius: 8px;
+}
+
+.work_img_six {
+  background-image: url('./assets/images/works/illu_cover.png');
+  width: 75%;
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-size: cover; /* Scales the image to cover the entire div */
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .work_img_one {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .work_img_two {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .work_img_three {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .work_img_four {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .work_img_five {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .work_img_six {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+.work_desc h2 {
+  font-size: 32px;
+  text-transform: none;
+}
+
+
+.work_date {
+  font-size: 16px;
+  font-family: 'Satoshi-medium';
+  color: var(--dark_blue);
+  opacity: 0.5;
+  margin-top: 16px;
+}
+
+.work_legend {
+  font-size: 13px;
+  font-family: 'Satoshi-bold';
+  color: var(--dark_blue);
+  opacity: 0.5;
+}
+
+.work_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.work_desc h2,
+.work_desc .work_date,
+.work_desc p,
+.work_legend {
+  color: var(--darkest_blue); /* Darker color for text by default */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+
+.work_card:hover .work_desc h2,
+.work_card:hover .work_desc .work_date,
+.work_card:hover .work_desc p,
+.work_card:hover .work_legend {
+  color: var(--light_grey); /* Lighter color for text on hover */
+  opacity: 1;
+}
+
+svg:hover {
+  background-color: var(--light_blue);
+  border-radius: 4px;
+}
