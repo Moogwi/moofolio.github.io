@@ -1301,7 +1301,7 @@ h3 {
 }
 
 .work_img_one {
-  background-image: url('./assets/images/works/core_cover.png');
+  background-image: url('/works/core_cover.png');
   width: 75%;
   background-position: center; /* Centers the background image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
