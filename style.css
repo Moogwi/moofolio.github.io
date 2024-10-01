@@ -548,6 +548,18 @@ align-items: center; /* Center vertically */
     top: 40px;
     }
 
+  @media (max-width: 600px) {
+    .header-about  {
+      max-height: 180px;
+    }
+    }
+
+   @media (max-width: 600px) {
+      .header-about img  {
+        top: 0;
+      }
+      }
+
 .header video {
 width: 100%;
 height: 100%;
