@@ -988,10 +988,18 @@ video {
 
 @media (max-width: 768px) {
   .experience-cards {
+    display: flex;
     flex-direction: column;
     padding: 16px;
     margin-top: 48px;
     gap: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title_page img {
+    width: 100px; /* Set the size of the image */
+  height: 100px;
   }
 }
 
