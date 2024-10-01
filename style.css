@@ -673,6 +673,12 @@ a:link {
     }
   }
 
+@media (max-width: 768px) {
+  .footer_button button {
+    padding: 24px;
+  }
+  }
+
 
 footer {
   display: flex;
@@ -1216,6 +1222,7 @@ video {
 @media (max-width: 768px) {
   .about-button {
     width: 90%;
+    padding: 24px;
   }
   }
 
