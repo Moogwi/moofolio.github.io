@@ -517,7 +517,7 @@ h1 {
 
 @media (max-width: 768px) {
   .body-template {
-    margin-top: 18%;
+    margin-top: 16%;
   }
   }
 
@@ -1012,6 +1012,7 @@ video {
   height: 150px;
   border-radius: 50%; /* Make the image circular */
   border: 4px solid white; 
+  object-fit: cover;
 }
 .name {
   width: 100%;
@@ -1211,6 +1212,12 @@ video {
     margin-top: 32px;
     transition: 300ms;
 }
+
+@media (max-width: 768px) {
+  .about-button {
+    width: 90%;
+  }
+  }
 
 .about-paragraph {
   display: flex;
