@@ -831,7 +831,7 @@ footer p {
   transform: translate(-0%, -0%);
   width: 100%;
   padding: 1%;  
-  box-shadow: 0 0 15px var(--dark_blue);
+  box-shadow: 0 0 15px var(--light_blue);
 }
 
 @media (max-width: 768px) {
@@ -1300,7 +1300,6 @@ h3 {
   gap: 12px;
   justify-content: center;
   align-items: center;
-  margin-bottom: 32px;
 }
 
 .chip-container {
