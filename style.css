@@ -315,6 +315,13 @@
     background-color: var(--light_grey);
 }
 
+@media (max-width: 768px) {
+  .landing  {
+    background-size:296%;
+    background-position: left;
+  }
+  }
+
 h1 {
     font-family: 'Satoshi-Bold';
     text-transform: uppercase;
@@ -323,6 +330,12 @@ h1 {
     margin: 0;
 }
 
+@media (max-width: 768px) {
+  h1 {
+    font-size: 4em;
+  }
+  }
+
 .content {
     display: flex;
     flex-direction: column;
@@ -330,6 +343,12 @@ h1 {
     align-items: center;
     height: 80%;
 }
+
+@media (max-width: 768px) {
+  .content {
+    height: 90%;
+  }
+  }
 
 .title {
     display: flex;
@@ -372,6 +391,20 @@ h1 {
     transform: rotate(-10deg);
     
 }
+
+@media (max-width: 768px) {
+  .card-adobe, .blur-effect-adobe  {
+    top: 50%;
+    left: 38%;
+  }
+  }
+
+  @media (max-width: 768px) {
+   .blur-effect-adobe  {
+    background-color: var(--darkest_blue);
+    }
+    }
+
 .blur-effect-figma {
     position: absolute;
     top: 10%;
@@ -402,6 +435,14 @@ h1 {
     transform: rotate(-20deg);
     
 }
+
+@media (max-width: 768px) {
+  .card-figma, .blur-effect-figma {
+    top: 28%;
+    left: 60%;
+    transform: rotate(20deg);
+  }
+  }
 
 .blur-effect-vscode {
     position: absolute;
@@ -434,6 +475,19 @@ h1 {
     
 }
 
+@media (max-width: 768px) {
+  .card-vscode, .blur-effect-vscode  {
+    left: 60%;
+  }
+  }
+
+
+  @media (max-width: 768px) {
+    .blur-effect-vscode  {
+      background: linear-gradient(-160deg, #49527E, #D3DCEA);
+    }
+    }
+
 .blur-effect-notion {
     position: absolute;
     top: 5%;
@@ -463,6 +517,19 @@ h1 {
     align-items: center;
     transform: rotate(-5deg);  
 }
+
+@media (max-width: 768px) {
+  .card-notion, .blur-effect-notion  {
+    top: 23%;
+    left: 12%;
+  }
+  }
+
+  @media (max-width: 768px) {
+    .blur-effect-notion,.blur-effect-figma  {
+      background: linear-gradient(20deg, #49527E, #D3DCEA);
+    }
+    }
 
 .blur-effect-webflow {
     position: absolute;
@@ -494,6 +561,11 @@ h1 {
     transform: rotate(15deg);  
 }
 
+@media (max-width: 768px) {
+  .blur-effect-webflow  {
+    background: var(--light_blue);
+  }
+  }
 
 
 .software-label {
