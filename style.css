@@ -722,6 +722,8 @@ footer p {
   width: 100%;
 }
 
+
+
 .resume_desc {
   display: flex;
   justify-content: space-between;
@@ -736,7 +738,9 @@ footer p {
   }
 }
 
-
+.footer-bis {
+    margin-bottom: 32px;
+}
 
 .resume_text {
   display: flex;
