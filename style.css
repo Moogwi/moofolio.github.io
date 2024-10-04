@@ -176,6 +176,8 @@
     background-color: var(--light_grey);
     padding: 1%;
     box-shadow: 0 0 15px var(--secondary_blue);
+    position: fixed;
+    z-index: 999;
   }
 
 @media (max-width: 768px) {
@@ -580,7 +582,7 @@ h1 {
 
 .body-template {
   position:absolute;
-  top: 0;
+  top: 40px;
   left: 0;
   width: 100%;
   height: fit-content;
@@ -847,6 +849,8 @@ footer p {
   width: 100%;
   padding: 1%;
   box-shadow: 0 0 15px var(--darkest_blue);
+  position: fixed;
+  z-index: 999;
 }
 
 @media (max-width: 768px) {
@@ -908,6 +912,8 @@ footer p {
   width: 100%;
   padding: 1%;  
   box-shadow: 0 0 15px var(--light_blue);
+  position: fixed;
+  z-index: 999;
 }
 
 @media (max-width: 768px) {
@@ -1098,6 +1104,8 @@ video {
   background-color: var(--light_grey);
   padding: 1%;
   box-shadow: 0 0 15px var(--darkest_blue);
+  position: fixed;
+  z-index: 999;  
 }
 
 @media (max-width: 768px) {
