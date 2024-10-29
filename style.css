@@ -1548,6 +1548,7 @@ h3 {
   flex-direction: row;
   padding: 24px;
   transition: 300ms;
+  cursor: pointer;
 }
 
 .work_card:hover{
