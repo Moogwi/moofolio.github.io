@@ -605,6 +605,13 @@ justify-content: center; /* Center horizontally */
 align-items: center; /* Center vertically */
 }
 
+ @media (max-width: 600px) {
+    .header {
+      max-height: 180px;
+      margin-top: -24px;  
+    }
+    }
+
 .header-about {
   width: 100%; /* Set the width of the container */
   max-height: 450px;
@@ -625,6 +632,7 @@ align-items: center; /* Center vertically */
   @media (max-width: 600px) {
     .header-about  {
       max-height: 180px;
+      margin-top: -24px;  
     }
     }
 
