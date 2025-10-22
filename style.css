@@ -299,6 +299,11 @@
     color: var(--lightest_blue);
   }
 
+.landing-button-container{
+  display: flex;
+  gap: 8px;
+}
+
   
 .background {
     background-color: #f6f7f7;
