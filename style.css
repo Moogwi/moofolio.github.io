@@ -1720,7 +1720,7 @@ h3 {
 }
 
 .work_img_zero {
-background-image: url('works/brise_cover.png');
+background-image: url('works/brise_cover.webp');
 width: 75%;
 background-position: center; /* Centers the background image */
 background-repeat: no-repeat; /* Prevents the image from repeating */
