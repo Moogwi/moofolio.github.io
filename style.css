@@ -1594,6 +1594,15 @@ h3 {
   }
 }
 
+.work_img_zero {
+background-image: url('works/brise_cover.png');
+width: 75%;
+background-position: center; /* Centers the background image */
+background-repeat: no-repeat; /* Prevents the image from repeating */
+background-size: cover; /* Scales the image to cover the entire div */
+border-radius: 8px;
+}
+
 .work_img_one {
   background-image: url('works/core_cover.webp');
   width: 75%;
