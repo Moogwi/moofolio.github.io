@@ -304,6 +304,20 @@
   gap: 8px;
 }
 
+@media (max-width: 768px) {
+  .landing-button {
+   width: 100%;
+  }
+  }
+
+
+@media (max-width: 768px) {
+  .landing-button-container {
+   display: flex;
+   flex-direction: column;
+   width: 80%;
+  }
+  }
   
 .background {
     background-color: #f6f7f7;
