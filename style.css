@@ -1679,6 +1679,12 @@ text-align: center;
 white-space: nowrap;
 }
 
+@media (max-width: 768px) {
+  .chip-variant {
+    padding: 8px 16px;
+  }
+  }
+
 .exp-container {
   display: flex;
   gap: 16px;
