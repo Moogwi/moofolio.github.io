@@ -893,6 +893,12 @@ gap: 24px;
 margin-top: 16px;
 }
 
+@media (max-width: 600px) {
+.chip-container-brise {
+ flex-wrap: nowrap;
+ gap: 8px;
+}
+}
 
 .brise_tite-container {
       display: flex;
@@ -902,11 +908,40 @@ margin-top: 16px;
     margin: 64px;
 }
 
+
+
 .brise_context {
   display: flex;
   margin: 0 128px;
   align-items: center;
   justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+.brise_context {
+  margin: 0 24px;
+  flex-direction: column;
+}
+}
+
+.context-p {
+  max-width: 60%;
+}
+
+@media (max-width: 600px) {
+.context-p {
+  max-width: 100%;
+}
+}
+
+.bottle {
+  height: 500px;
+}
+
+@media (max-width: 600px) {
+.bottle {
+  height: 400px;
+}
 }
 
 .brise_inspo {
@@ -915,12 +950,36 @@ margin-top: 16px;
   justify-content: center;
 }
 
+@media (max-width: 600px) {
+.brise_inspo {
+  margin: 0 24px;
+}
+}
+
+.inspo-p
+{
+  max-width: 80%;
+}
+
+@media (max-width: 600px) {
+.inspo-p{
+  max-width: 100%;
+}
+}
+
 .img-wrapper {
    padding: 128px;
    overflow: hidden;
    display: flex;
    justify-content: center;
       /* coupe l’image selon le border-radius */
+}
+
+@media (max-width: 600px) {
+.img-wrapper{
+  padding: 0;
+  margin: 64px 0;
+}
 }
 
 .img-wrapper-branding {
@@ -933,6 +992,13 @@ margin-top: 16px;
       /* coupe l’image selon le border-radius */
 }
 
+@media (max-width: 600px) {
+.img-wrapper-branding {
+  padding: 0;
+  gap: 24px;
+  margin: 24px 0 64px;
+}
+}
 
 .img-wrapper img {
   width: 100%;        /* responsive */
@@ -940,6 +1006,12 @@ margin-top: 16px;
   display: block;     /* supprime les petits espaces blancs */
   border-radius: 10px;
 
+}
+
+@media (max-width: 600px) {
+.img-wrapper img{
+   border-radius: 0;
+}
 }
 
 .img-wrapper.wheel img {
@@ -958,11 +1030,36 @@ margin-top: 16px;
 
 }
 
+@media (max-width: 600px) {
+.img-wrapper-branding img {
+ border-radius: 0;
+}
+}
+
+.brand-p
+{
+  max-width: 80%;
+}
+
+@media (max-width: 600px) {
+.brand-p{
+  max-width: 100%;
+}
+}
+
 .brise_ui {
   display: flex;
   margin: 64px 128px;
   align-items: center;
   justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+.brise_ui{
+  flex-direction: column;
+  margin: 24px;
+  gap: 64px;
+}
 }
 
 .prototype-button {
@@ -996,6 +1093,12 @@ margin-top: 16px;
   display: flex; 
   flex-direction: column;
   gap: 24px;
+}
+
+@media (max-width: 600px) {
+.ui_content-wrapper {
+  max-width: 100%;
+}
 }
 
 
