@@ -317,8 +317,8 @@
   .landing-button-container {
    display: flex;
    flex-direction: column;
-   width: 80%;
    gap: 16px;
+   margin-bottom: 64px;
   }
   }
   
@@ -371,7 +371,7 @@ h1 {
 
 @media (max-width: 768px) {
   .content {
-    height: 100%;
+    height: 100vh;
   }
   }
 
